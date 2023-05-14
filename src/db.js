@@ -10,7 +10,8 @@ const connection = new Sequelize({
     define: {
         timestamps: false,
         freezeTableName: true
-    }
+    },
+    logging: false
 });
 
 const testConnection = async () => {
